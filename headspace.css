@@ -1,0 +1,2355 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 150vh;
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    z-index: 1;
+    margin-top: -20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a .fa-solid {
+    color: black;
+    font-size: 30px;
+}
+
+.menubar {
+    display: none;
+}
+
+#menubar {
+    display: none;
+}
+
+#menubar li {
+    display: none;
+}
+
+#foryou {
+    width: 100%;
+    height: 300%;
+    display: flex;
+    column-gap: 10%;
+    background-color: white;
+    position: absolute;
+    font-weight: 500;
+    top: 100%;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.weoffer ol,
+.wehelp ol,
+.explorelibrary ol,
+.guided ol {
+    list-style: none;
+    line-height: 1.9;
+}
+
+.weoffer h1,
+.wehelp h1,
+.explorelibrary h1 {
+    font-size: 25px;
+    margin-bottom: 6%;
+}
+
+.guided h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 6%;
+}
+
+#foryou {
+    display: none;
+}
+
+.nav1 {
+    position: relative;
+}
+
+#foryou {
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: 0.3s ease;
+}
+
+.nav1:hover+#foryou,
+#foryou:hover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#foryou .fa-solid {
+    color: black;
+}
+
+.timing {
+    width: 100%;
+    height: 4%;
+    background-color: #FFCE00;
+    position: static;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav1 {
+    width: 100%;
+    height: 100%;
+    padding-left: 6%;
+    display: flex;
+}
+
+.nav2 {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav2 a button {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+}
+
+nav {
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    list-style: none;
+    padding-left: 7%;
+    margin-top: 3.5%;
+}
+
+.nav2 nav {
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    list-style: none;
+    padding-right: 10%;
+    margin-top: 3.5%;
+}
+
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a .button1 {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.join a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    width: 115px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 2rem;
+    border: none;
+    position: relative;
+    bottom: 25%;
+    font-weight: bolder;
+    color: white;
+}
+
+.demo button a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.offer-container {
+    width: 100%;
+    height: 50%;
+    background-color: #FFCC01;
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    z-index: -5;
+}
+
+.limited-time {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    width: 50%;
+    height: 100%;
+}
+
+.limited-time-offer {
+    width: 60%;
+    height: 60%;
+}
+
+.limited-time-offer button {
+    background-color: #FC5500;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 10%;
+    left: 0%;
+    font-size: 20px;
+}
+
+.limited-time-offer h1 {
+    font-size: 60px;
+    margin-top: 13%;
+}
+
+.limited-time-offer h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #63605D;
+    margin-top: 5%;
+}
+
+.limited-time-offer .button1 {
+    width: 165px;
+    height: 65px;
+    font-size: 20px;
+    background-color: #141313;
+    border-radius: 2rem;
+    border: none;
+    position: relative;
+    bottom: 25%;
+    font-weight: 300;
+    color: white;
+}
+
+.images {
+    width: 50%;
+    height: 87%;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.look {
+    width: 100%;
+    height: 600px;
+    padding: 4rem;
+    background-color: white;
+    justify-content: center;
+}
+
+.look h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.meditations {
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.grid {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+.grid-box1 {
+    height: 100%;
+}
+
+.grid-box1,
+.grid-box2,
+.grid-box3,
+.grid-box4,
+.grid-box5,
+.grid-box6 {
+    border-radius: 10px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stressless {
+    height: 40%;
+    position: relative;
+    left: 5%;
+    top: -5%;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background: #63605d95;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#popup {
+    display: block;
+}
+
+#popup i {
+    position: relative;
+    top: -9%;
+    left: 63%;
+    font-size: 40px;
+}
+
+#popup i:hover {
+    cursor: pointer;
+    color: #FFF;
+}
+
+#popup {
+    width: 60%;
+    height: 60%;
+    z-index: 15;
+    opacity: 1;
+    margin-left: 2%;
+    margin-top: 0%;
+    border-radius: 20px;
+    background-color: #FFB700;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+#background:target {
+    display: flex;
+}
+
+.frame {
+    position: relative;
+    top: -8%;
+    left: 37%;
+    width: 25%;
+    height: 25%;
+}
+
+#popup h1 {
+    margin-top: -5%;
+    text-align: center;
+}
+
+#popup p {
+    font-size: 16px;
+    text-align: center;
+    margin-left: -3%;
+    margin-top: 2%;
+}
+
+.section {
+    width: 93%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    width: 49%;
+    height: 40%;
+    display: flex;
+}
+
+.text {
+    width: 100%;
+    display: block;
+    padding-left: 2px;
+}
+
+.section1 h2 {
+    font-size: 20px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.section2 h2 {
+    font-size: 20px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.section3 h2 {
+    font-size: 20px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.section4 h2 {
+    font-size: 20px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+#popup a button {
+    cursor: pointer;
+    color: black;
+}
+
+#popup button {
+    color: black;
+    background-color: white;
+    width: 20%;
+    position: relative;
+    top: 7%;
+    left: 40%;
+}
+
+.section1 h3,
+.section2 h3,
+.section3 h3,
+.section4 h3 {
+    font-size: 17px;
+    margin-left: 4%;
+}
+
+span {
+    font-size: 30px;
+    position: relative;
+    top: -5%;
+    left: -10%;
+    transition-duration: 0.4s;
+}
+
+.grid-box1:hover span {
+    transform: translateX(10px);
+}
+
+.grid-box2:hover span {
+    transform: translateX(10px);
+}
+
+.grid-box3:hover span {
+    transform: translateX(10px);
+}
+
+.grid-box4:hover span {
+    transform: translateX(10px);
+}
+
+.grid-box5:hover span {
+    transform: translateX(10px);
+}
+
+.grid-box6:hover span {
+    transform: translateX(10px);
+}
+
+.sleep {
+    height: 50%;
+    width: 11%;
+    position: relative;
+    opacity: 0.6;
+    left: 10%;
+    top: -5%;
+}
+
+.star3 {
+    width: 10%;
+    height: 25%;
+    position: relative;
+    top: -19%;
+    left: -7%;
+    animation: 9s star alternate infinite;
+}
+
+.roll {
+    width: 25%;
+    height: 70%;
+}
+
+.sun {
+    width: 20%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.image {
+    margin-left: 5%;
+}
+
+.mentalhealth {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.mentalhealth h2 {
+    text-align: center;
+    font-size: 55px;
+}
+
+.guidence {
+    width: 100%;
+    height: 18%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 12%;
+    height: 40%;
+    margin-right: 2%;
+    background-color: #F9F4F2;
+    margin-top: 2%;
+    color: black;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #E2DED9;
+}
+
+.flex {
+    display: flex;
+    overflow-x: auto;   /* horizontal scroll */
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory; /* important */
+}
+
+.slide {
+    min-width: 70%;
+    flex-shrink: 0;
+    scroll-snap-align: center;  /* this makes slide center */
+}
+
+.online {
+    width: 70%;
+    height: 60%;
+    background-color: #0061EF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 12%;
+}
+
+.online1 {
+    width: 70%;
+    height: 60%;
+    background-color: #FFCE00;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin-left: 12%; */
+    margin-top: 20px;
+    padding: 3%;
+}
+
+.online2 {
+    width: 70%;
+    height: 60%;
+    background-color: pink;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin-left: 12%; */
+    margin-top: 20px;
+    padding: 3%;
+}
+
+.online3 {
+    width: 70%;
+    height: 60%;
+    background-color: #3B197F;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin-left: 12%; */
+    margin-top: 20px;
+    padding: 3%;
+}
+
+.online4 {
+    width: 70%;
+    height: 60%;
+    background-color: #02873E;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin-left: 12%; */
+    margin-top: 20px;
+    padding: 3%;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.explain,
+#color-ch0 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 5%;
+    background-color: #0061EF;
+}
+
+#color-ch02 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 5%;
+    background-color: #FFCE00;
+}
+
+#color-ch01 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 5%;
+    background-color: pink;
+}
+
+#color-ch03 {
+    width: 100%;
+    height: 100%;
+    background-color: #3B197F;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 5%;
+
+}
+
+#color-ch04 {
+    width: 100%;
+    height: 100%;
+    background-color: #02873E;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 5%;
+}
+
+.explain2 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 5%;
+    background-color: #FFCE00;
+}
+
+.explain3 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 5%;
+    background-color: pink;
+}
+
+.explain4 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 3%;
+    background-color: #3B197F;
+}
+
+.explain5 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 3%;
+    background-color: #02873E;
+}
+
+.therapy {
+    width: 105%;
+    height: 110%;
+}
+
+.therapy1 {
+    width: 80%;
+    height: 100%;
+    margin-top: -8%;
+}
+
+.therapy2 {
+    width: 85%;
+    height: 100%;
+    margin-top: -10%;
+}
+
+.therapy3 {
+    width: 70%;
+    height: 100%;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+
+.therapy4 {
+    width: 70%;
+    height: 100%;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+
+.explain h2,
+.explain2 h2,
+.explain3 h2,
+.explain4 h2,
+.explain5 h2 {
+    color: white;
+    font-size: 45px;
+    text-align: left;
+}
+
+.explain p,
+.explain2 p,
+.explain3 p,
+.explain4 p,
+.explain5 p {
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 20px;
+    color: white;
+}
+
+#color-ch:target {
+    background-color: antiquewhite;
+}
+
+#color-ch1:target {
+    background-color: antiquewhite;
+}
+
+#color-ch2:target {
+    background-color: antiquewhite;
+}
+
+#color-ch3:target {
+    background-color: antiquewhite;
+}
+
+#color-ch4:target {
+    background-color: antiquewhite;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.explain button,
+.explain2 button,
+.explain3 button,
+.explain4 button,
+.explain5 button {
+    width: 37%;
+    background-color: white;
+    border: none;
+    position: relative;
+    left: -65%;
+    top: 10%;
+    color: black;
+    font-weight: 550;
+    font-size: 16px;
+
+}
+
+.experts {
+    width: 100%;
+    height: 140%;
+    margin-top: 6%;
+    align-items: center;
+    animation: fadeInExperts 1s ease-in;
+}
+
+@keyframes fadeInExperts {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.experts p {
+    margin-top: 2%;
+    margin-left: 0%;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.experts button {
+    width: 10%;
+    height: 6%;
+    background-color: #141313;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top: 5%;
+    left: 45%;
+    font-size: 20px;
+}
+
+.experts a {
+    text-decoration: none;
+    color: white;
+}
+
+.experts-image {
+    width: 99%;
+    height: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: -5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider {
+    overflow: visible;
+    width: 100%;
+}
+
+.track {
+    display: flex;
+    width: 200%;
+    animation: scrollExperts 25s linear infinite;
+}
+
+.track>div {
+    min-width: 200px;
+    margin-right: 30px;
+}
+
+@keyframes scrollExperts {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.left {
+    width: 2%;
+    height: 40%;
+    font-size: 100px;
+    margin-top: 10%;
+    opacity: 0.5;
+    transition: transform 1s linear;
+}
+
+.left:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: translateX(-20px);
+}
+
+.right:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: translateX(20px);
+}
+
+.right {
+    width: 2%;
+    height: 40%;
+    opacity: 0.5;
+    font-size: 100px;
+    margin-top: 10%;
+    transition: transform 1s ease;
+}
+
+.teacher1 {
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: #FFA1CC;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    scroll-behavior: smooth;
+}
+
+.teacher1 p,
+.teacher2 p,
+.teacher3 p,
+.teacher4 p {
+    color: white;
+    position: relative;
+    top: -28%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.teacher1 h3,
+.teacher2 h3,
+.teacher3 h3,
+.teacher4 h3 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    position: relative;
+}
+
+.teacher2 {
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: #01A652;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    scroll-behavior: smooth;
+}
+
+.teacher3 {
+    width: 20%;
+    height: 50%;
+    background-color: #FF7300;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    scroll-behavior: smooth;
+}
+
+.teacher4 {
+    width: 20%;
+    height: 50%;
+    background-color: #01A652;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    scroll-behavior: smooth;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+}
+
+.members {
+    width: 100%;
+    height: 500px;
+}
+
+.healthylives {
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.healthylives h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.planet1 {
+    position: relative;
+    top: -43%;
+    left: -24%;
+}
+
+.planet2 {
+    position: relative;
+    top: -55%;
+    left: 55%;
+}
+
+.planet3 {
+    position: relative;
+    top: -11%;
+    left: 27%;
+}
+
+.planet4 {
+    position: relative;
+    left: 56%;
+    top: -7%;
+}
+
+.planet5 {
+    position: relative;
+    left: 44%;
+    top: -51%;
+}
+
+.planet6 {
+    position: relative;
+    top: -60%;
+    left: 8%;
+}
+
+.members1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3%;
+}
+
+.habits {
+    width: 25%;
+    height: 70%;
+    background-color: #F9F4F2;
+    border-radius: 20px;
+}
+
+.habits p,
+.ways p,
+.feelings p {
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.habits h6 {
+    color: grey;
+    font-size: 15px;
+    margin-top: 19%;
+    margin-left: 7%;
+    font-weight: 500;
+}
+
+.ways {
+    width: 25%;
+    height: 70%;
+    background-color: #F9F4F2;
+    border-radius: 20px;
+}
+
+.ways h6,
+.feelings h6 {
+    color: grey;
+    font-size: 15px;
+    margin-top: 25%;
+    margin-left: 7%;
+    font-weight: 500;
+}
+
+.feelings {
+    width: 25%;
+    height: 70%;
+    background-color: #F9F4F2;
+    border-radius: 20px;
+}
+
+.organizations {
+    width: 70%;
+    height: 800px;
+    background-color: #0061EF;
+    border-radius: 20px;
+    margin-left: 15%;
+    overflow-x: hidden;
+}
+
+.booking {
+    width: 200%;
+    height: 10%;
+    display: flex;
+    column-gap: 16px;
+    padding-left: 3%;
+    padding-top: 15px;
+}
+
+.logo1 {
+    width: 6%;
+    height: 30%;
+    margin-top: 12px;
+    column-gap: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.leading {
+    width: 50%;
+    height: 100%;
+}
+
+.leading1 {
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+.people {
+    width: 90%;
+    height: 90%;
+}
+
+.explain1 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    padding: 15%;
+    margin-top: -12%;
+}
+
+.explain1 h2 {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 10%;
+
+}
+
+.explain1 p {
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 0%;
+    font-size: 20px;
+    color: white;
+}
+
+.explain1 button {
+    width: 37%;
+    height: 10%;
+    position: relative;
+    top: 13%;
+    left: -22%;
+    margin-left: 9%;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.explain1 a .demo {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.explain1 a .learn {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.learn {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.demo {
+    background-color: white;
+    color: white;
+}
+
+.library {
+    width: 100%;
+    height: 110%;
+    margin-top: 5%;
+}
+
+.library h2 {
+    text-align: center;
+    font-size: 55px;
+}
+
+.explore {
+    width: 100%;
+    height: 14%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2 {
+    width: 10%;
+    height: 50%;
+    margin-right: 2%;
+    background-color: #F9F4F2;
+    margin-top: 2%;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.button3 {
+    width: 15%;
+    height: 50%;
+    margin-right: 2%;
+    background-color: #F9F4F2;
+    margin-top: 2%;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #E2DED9;
+}
+
+.button3:hover {
+    color: black;
+    cursor: pointer;
+    background-color: #E2DED9;
+}
+
+#color-cha:target {
+    background-color: antiquewhite;
+}
+
+#color-chb:target {
+    background-color: antiquewhite;
+}
+
+#color-chc:target {
+    background-color: antiquewhite;
+}
+
+#color-chd:target {
+    background-color: antiquewhite;
+}
+
+#color-che:target {
+    background-color: antiquewhite;
+}
+
+.button2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.button3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.trending {
+    width: 150%;
+    height: 50%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.trending-track {
+    display: flex;
+    gap: 20px;
+    width: 200%;
+    animation: slideLeft 20s linear infinite;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.new1,
+.new2,
+.new3,
+.new4 {
+    width: 20%;
+    height: 110%;
+    border-radius: 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.new1::after,
+.new2::after,
+.new3::after,
+.new4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.new1 p,
+.new1 h3,
+.new2 p,
+.new2 h3,
+.new3 p,
+.new3 h3,
+.new4 p,
+.new4 h3 {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.new1 img {
+    transition: transform 0.5s ease;
+}
+
+.new1:hover img {
+    transform: scale(1.1);
+}
+
+.new1 p,
+.new2 p,
+.new3 p,
+.new4 p {
+    bottom: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.new1 h3,
+.new2 h3,
+.new3 h3,
+.new4 h3 {
+    bottom: 25px;
+    font-size: 14px;
+}
+
+.new1 {
+    width: 100%;
+    height: 110%;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 1s;
+}
+
+.ebb {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.new2 {
+    width: 100%;
+    height: 110%;
+    border-radius: 20px;
+    text-align: center;
+    background: url(image/mindfull.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+}
+
+.new3 {
+    width: 100%;
+    height: 110%;
+    background: url(image/panic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+.new4 {
+    width: 100%;
+    height: 110%;
+    background: url(image/xr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.new5 {
+    width: 100%;
+    height: 110%;
+    background: url(image/training.webp);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.millions {
+    width: 100%;
+    height: 800px;
+}
+
+.join {
+    width: 70%;
+    height: 100%;
+    background: url(image/sky-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+    margin-top: 6%;
+    border-radius: 20px;
+    padding-bottom: 7%;
+}
+
+.join h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 17%;
+    color: white;
+}
+
+.man1 {
+    position: relative;
+    top: -38%;
+    left: 15%;
+    width: 8%;
+    height: 15%;
+}
+
+.man2 {
+    position: relative;
+    top: -35%;
+    left: 65%;
+    width: 8%;
+    height: 15%;
+
+}
+
+.man3 {
+    position: relative;
+    top: 9%;
+    left: 5%;
+    width: 8%;
+    height: 15%;
+}
+
+.man4 {
+    position: relative;
+    left: 37%;
+    top: 5%;
+    width: 8%;
+    height: 15%;
+}
+
+.join button {
+    width: 15%;
+    height: 8%;
+    font-size: 16px;
+    background-color: #141313;
+    color: white;
+    position: relative;
+    top: -5%;
+    font-weight: 500;
+    left: 8%;
+}
+
+.join a button {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.join .meditating {
+    width: 40%;
+    height: 10%;
+    font-size: 20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    padding: 18px;
+    top: -55%;
+    left: 30%;
+    border: 2px solid white;
+    display: flex;
+}
+
+.new1 p {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: -35%;
+    left: -4%;
+    font-weight: 600;
+}
+
+.new2 p,
+.new3 p,
+.new4 p,
+.new5 p {
+    color: white;
+    position: relative;
+    top: 65%;
+    left: -4%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.new1 h3 {
+    position: relative;
+    top: -30%;
+    color: white;
+}
+
+.new2 h3,
+.new3 h3,
+.new4 h3,
+.new5 h3 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: 70%;
+}
+
+.user {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rating {
+    width: 25%;
+    height: 80%;
+    padding: 25px;
+    color: white;
+    display: block;
+    justify-content: center;
+    line-height: 3;
+    align-items: center;
+}
+
+.downloads {
+    width: 25%;
+    height: 80%;
+    color: white;
+    padding: 25px;
+    display: block;
+    line-height: 3;
+}
+
+.minutes {
+    width: 25%;
+    height: 80%;
+    display: block;
+    padding: 25px;
+    justify-content: center;
+    line-height: 3;
+    align-items: center;
+    color: white;
+}
+
+.awards {
+    width: 25%;
+    height: 80%;
+    display: block;
+    padding: 25px;
+    justify-content: center;
+    line-height: 3;
+    align-items: center;
+    color: white;
+}
+
+.footerbutton a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-solid {
+    color: #FFCD00;
+    font-size: 30px;
+}
+
+.user h3 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.user h2 {
+    margin-top: -30%;
+}
+
+.downloads h3 {
+    font-size: 20px;
+    margin-left: 53px;
+    margin-top: -25%;
+}
+
+.minutes h3 {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -25%;
+}
+
+.medal {
+    margin-left: 10%;
+}
+
+.awards h3 {
+    font-size: 20px;
+    margin-left: 17px;
+    margin-top: -2%;
+}
+
+.homefooter {
+    width: 100%;
+    height: 130%;
+    background-color: #FFA1CC;
+    margin-top: 5%;
+    display: block;
+}
+
+.footer-container {
+    width: 100%;
+    height: 120%;
+    background-color: #FFCE00;
+    margin-top: -1%;
+}
+
+.arc {
+    width: 100%;
+}
+
+.footerbutton {
+    width: 50%;
+    height: 20%;
+    border-radius: 10rem;
+    position: relative;
+    top: -110%;
+    left: 22%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.homefooter a button {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.breathing {
+    width: 100%;
+    height: 68%;
+    position: relative;
+    top: 30%;
+}
+
+.site-footer {
+    background: #fbf5f3;
+    padding: 36px 45px 12px 130px;
+    border-top: 1px solid rgba(0, 0, 0, 0.02);
+    margin-top: 10%;
+    height: 35%;
+}
+
+.footer-top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-col {
+    width: 20%;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 13px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-login {
+    display: inline-block;
+    width: 120px;
+    background: #0B72FF;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 22px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    margin-top: 18px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.hero-copy,
+.hero-visual,
+.feature,
+.split-media,
+.split-text,
+.newsletter-left,
+.newsletter-form {
+    animation: fadeInUp .6s ease both;
+}
+
+@media (min-width:375px) and (max-width:425px) {
+
+    body {
+        width: 155%;
+    }
+
+    header {
+        width: 90%;
+        height: 70px;
+        position: fixed;
+    }
+
+    .nav1 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav1 nav {
+        display: none;
+    }
+
+    .menubar {
+        display: none;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    #menubar:target {
+        display: block;
+        color: black;
+    }
+
+    .offer-container {
+        width: 100%;
+        height: 40%;
+        text-align: center;
+    }
+
+
+    .limited-time-offer button {
+        position: relative;
+        top: -4%;
+    }
+
+    .limited-time-offer h1 {
+        font-size: 24px;
+    }
+
+    .limited-time-offer h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .limited-time-offer .button1 {
+        margin-top: 35%;
+    }
+
+    .look {
+        width: 100%;
+        height: 700px;
+    }
+
+    .look h2 {
+        font-size: 30px;
+    }
+
+    .meditations {
+        display: block;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .grid-box1,
+    .grid-box2,
+    .grid-box3,
+    .grid-box4,
+    .grid-box5,
+    .grid-box6 {
+        height: 30%;
+        margin-bottom: 5%;
+    }
+
+    .star3 {
+        margin-left: 3%;
+    }
+
+    .roll {
+        margin-right: 8%;
+    }
+
+    .sun {
+        margin-right: 7%;
+    }
+
+    .sun2 {
+        margin-right: 13%;
+        width: 55px;
+    }
+
+    .image {
+        width: 65px;
+    }
+
+    .mentalhealth {
+        width: 100%;
+    }
+
+    .mentalhealth h2 {
+        font-size: 30px;
+    }
+
+    .guidence {
+        display: none;
+    }
+
+    .button {
+        width: 20%;
+        background-color: antiquewhite;
+    }
+
+    .button a {
+        font-size: 16px;
+    }
+
+    .online {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+
+    .image1 {
+        width: 280%;
+        margin-left: -8%;
+        margin-top: -10%;
+    }
+
+    .explain {
+        padding-top: 15%;
+        padding-left: 1%;
+    }
+
+    .explain h2 {
+        font-size: 20px;
+        margin-bottom: 16%;
+    }
+
+    .explain p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .explain button {
+        margin-left: 75%;
+    }
+
+    .experts h2 {
+        font-size: 40px;
+    }
+
+    .experts p {
+        font-size: 22px;
+    }
+
+    .experts button {
+        width: 150px;
+        height: 70px;
+        position: relative;
+        top: 3%;
+        left: 35%;
+    }
+
+    .experts-image {
+        display: none;
+    }
+
+    .right,
+    .left {
+        display: none;
+    }
+
+    .teacher1,
+    .teacher2,
+    .teacher3,
+    .teacher4 {
+        width: 100%;
+        height: 25%;
+        margin-top: 3%;
+    }
+
+    .members {
+        margin-top: -70%;
+    }
+
+    .healthylives {
+        margin-top: -10%;
+        height: 95%;
+    }
+
+    .healthylives h1 {
+        font-size: 40px;
+    }
+
+    .planet1 {
+        position: relative;
+        top: -70%;
+        left: -15%;
+        width: 80px;
+    }
+
+    .planet2 {
+        position: relative;
+        top: -55%;
+        left: 36%;
+        width: 80px;
+    }
+
+    .planet3 {
+        position: relative;
+        left: -4%;
+        top: -2%;
+        width: 80px;
+    }
+
+    .planet4 {
+        position: relative;
+        width: 80px;
+        left: 65%;
+    }
+
+    .planet5 {
+        position: relative;
+        top: -60%;
+        left: 15%;
+    }
+
+    .planet6 {
+        position: relative;
+        left: -62%;
+        top: -60%;
+    }
+
+    .members1 {
+        width: 100%;
+        height: 120%;
+        display: block;
+        margin-top: -15%;
+        margin-left: -5%;
+    }
+
+    .leading1 {
+        display: none;
+    }
+
+    .habits,
+    .ways,
+    .feelings {
+        width: 80%;
+        height: 30%;
+        margin-left: 15%;
+    }
+
+    .habits h6,
+    .ways h6,
+    .feelings h6 {
+        margin-top: 6%;
+    }
+
+    .organizations {
+        margin-left: 0%;
+        width: 100%;
+        height: 75%;
+    }
+
+    .people {
+        width: 140%;
+        height: 65%;
+        margin-left: -35%;
+    }
+
+    .explain1 {
+        padding: 3%;
+    }
+
+    .explain1 h2 {
+        font-size: 20px;
+    }
+
+    .explain1 p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .explain1 .demo {
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .explain1 .learn {
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+        margin-top: 4%;
+    }
+
+    .explore {
+        display: none;
+    }
+
+    .button2 {
+        width: 15%;
+        height: 45%;
+        background-color: antiquewhite;
+    }
+
+    .button3 {
+        width: 20%;
+        height: 45%;
+        background-color: antiquewhite;
+    }
+
+    .new2,
+    .new3,
+    .new4 {
+        display: none;
+    }
+
+    .trending {
+        width: 100%;
+        height: 170%;
+        display: block;
+    }
+
+    .library {
+        height: 200%;
+    }
+
+    .new1,
+    .new2,
+    .new3,
+    .new4 {
+        width: 100%;
+        height: 24.5%;
+        margin-top: 3%;
+    }
+
+    .millions {
+        width: 100%;
+        height: 100%;
+        margin-top: -130%;
+    }
+
+    .join {
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .join h1 {
+        margin-top: 15%;
+        font-size: 40px;
+    }
+
+    .join .meditating {
+        display: none;
+    }
+
+    .man1 {
+        width: 17%;
+        margin-top: 78px;
+        height: 12%;
+        margin-left: -13%;
+    }
+
+    .man2 {
+        width: 17%;
+        height: 12%;
+        margin-left: 3%;
+    }
+
+    .man3 {
+        width: 17%;
+        height: 12%;
+        margin-left: -20%;
+    }
+
+    .man4 {
+        width: 17%;
+        height: 12%;
+        margin-left: 10%;
+    }
+
+    .join button {
+        width: 165px;
+        height: 63px;
+        position: relative;
+        left: -18%;
+    }
+
+    .user {
+        width: 100%;
+    }
+
+    .rating {
+        width: 40%;
+    }
+
+    .downloads,
+    .minutes {
+        width: 35%;
+    }
+
+    .downloads h3,
+    .minutes h3 {
+        margin-left: 3px;
+    }
+
+    .awards {
+        display: none;
+    }
+
+    .five {
+        display: flex;
+    }
+
+    #background {
+        display: none;
+    }
+
+    #popup {
+        display: none;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        width: 100%;
+        height: 25%;
+        margin-bottom: 17px;
+    }
+
+    #popup h1 {
+        margin-top: -20%;
+    }
+
+    #popup i {
+        position: relative;
+        top: -15%;
+        left: 55%;
+    }
+
+    #popup button {
+        width: 230px;
+        height: 70px;
+        font-size: 20px;
+        position: relative;
+        top: 102px;
+        left: 155px;
+    }
+
+    .footerbutton {
+        width: 70%;
+        height: 15%;
+        font-size: 35px;
+        margin-left: -41px;
+    }
+
+    .support {
+        display: none;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section {
+        height: auto;
+        padding: 40px 12px;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .section h1 {
+        font-size: 26px;
+        padding-top: 0;
+    }
+
+    .section button {
+        width: 80%;
+        height: 48px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .site-footer {
+        padding: 24px 16px;
+        margin-top: 30%;
+        background-color: #F9F4F2;
+        display: none;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-login {
+        margin-left: 40%;
+    }
+}

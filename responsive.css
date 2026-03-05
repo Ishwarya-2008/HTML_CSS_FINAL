@@ -1,0 +1,120 @@
+/* Shared responsive rules for the project */
+:root {
+    --fluid-font: 1rem;
+}
+
+html,
+body {
+    box-sizing: border-box
+}
+
+img,
+video,
+svg {
+    max-width: 100%;
+    height: auto;
+    display: block
+}
+
+/* Base adjustments */
+body {
+    font-size: 16px
+}
+
+/* Small devices (phones) */
+@media (max-width:600px) {
+    body {
+        font-size: 14px
+    }
+
+    header nav {
+        display: none
+    }
+
+    .logo {
+        width: 120px
+    }
+
+    .meditations {
+        display: block
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        width: 100%
+    }
+
+    .experts h2 {
+        font-size: 28px
+    }
+
+    .experts p {
+        font-size: 18px
+    }
+
+    .experts-image {
+        display: none
+    }
+
+    .button,
+    button {
+        width: auto
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width:601px) and (max-width:992px) {
+    body {
+        font-size: 15px
+    }
+
+    .experts h2 {
+        font-size: 34px
+    }
+
+    .experts p {
+        font-size: 20px
+    }
+
+    .experts-image {
+        flex-wrap: wrap
+    }
+
+    .teacher1,
+    .teacher2,
+    .teacher3,
+    .teacher4 {
+        width: 45%
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width:993px) {
+    body {
+        font-size: 16px
+    }
+}
+
+/* Utility helpers for layout */
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px
+}
+
+.text-center {
+    text-align: center
+}
+
+.hidden-mobile {
+    display: block
+}
+
+@media (max-width:600px) {
+    .hidden-mobile {
+        display: none
+    }
+}
